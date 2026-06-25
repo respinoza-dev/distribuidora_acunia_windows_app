@@ -1,13 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Roger Espinoza\\Downloads\\trabajongo\\Distribuidora\\Distribuidora\\",
+  "WorkspaceRootPath": "E:\\documentos\\Nefi_ayuda\\distribuidora_acunia_windows_app\\Distribuidora\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C5BEFDBD-B21B-4985-B6C1-653A1E55BEFB}|SistemaGestion\\SistemaGestion.UI.csproj|C:\\Users\\Roger Espinoza\\Downloads\\trabajongo\\Distribuidora\\Distribuidora\\sistemagestion\\uctrlventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{96734390-4BE7-4595-A8DB-14BCB3ABA939}|SistemaGestion.BLL\\SistemaGestion.BLL.csproj|e:\\documentos\\nefi_ayuda\\distribuidora_acunia_windows_app\\distribuidora\\sistemagestion.bll\\services\\usuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96734390-4BE7-4595-A8DB-14BCB3ABA939}|SistemaGestion.BLL\\SistemaGestion.BLL.csproj|solutionrelative:sistemagestion.bll\\services\\usuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5BEFDBD-B21B-4985-B6C1-653A1E55BEFB}|SistemaGestion\\SistemaGestion.UI.csproj|e:\\documentos\\nefi_ayuda\\distribuidora_acunia_windows_app\\distribuidora\\sistemagestion\\uctrlventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5BEFDBD-B21B-4985-B6C1-653A1E55BEFB}|SistemaGestion\\SistemaGestion.UI.csproj|solutionrelative:sistemagestion\\uctrlventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2721537-34B6-4F0D-A331-99639CBBCC62}|SistemaGestion.DAL\\SistemaGestion.DAL.csproj|e:\\documentos\\nefi_ayuda\\distribuidora_acunia_windows_app\\distribuidora\\sistemagestion.dal\\repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2721537-34B6-4F0D-A331-99639CBBCC62}|SistemaGestion.DAL\\SistemaGestion.DAL.csproj|solutionrelative:sistemagestion.dal\\repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2721537-34B6-4F0D-A331-99639CBBCC62}|SistemaGestion.DAL\\SistemaGestion.DAL.csproj|e:\\documentos\\nefi_ayuda\\distribuidora_acunia_windows_app\\distribuidora\\sistemagestion.dal\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2721537-34B6-4F0D-A331-99639CBBCC62}|SistemaGestion.DAL\\SistemaGestion.DAL.csproj|solutionrelative:sistemagestion.dal\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5BEFDBD-B21B-4985-B6C1-653A1E55BEFB}|SistemaGestion\\SistemaGestion.UI.csproj|e:\\documentos\\nefi_ayuda\\distribuidora_acunia_windows_app\\distribuidora\\sistemagestion\\uctrlventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C5BEFDBD-B21B-4985-B6C1-653A1E55BEFB}|SistemaGestion\\SistemaGestion.UI.csproj|solutionrelative:sistemagestion\\uctrlventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5BEFDBD-B21B-4985-B6C1-653A1E55BEFB}|SistemaGestion\\SistemaGestion.UI.csproj|c:\\users\\roger espinoza\\downloads\\trabajongo\\distribuidora\\distribuidora\\sistemagestion\\uctrlventa.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C5BEFDBD-B21B-4985-B6C1-653A1E55BEFB}|SistemaGestion\\SistemaGestion.UI.csproj|e:\\documentos\\nefi_ayuda\\distribuidora_acunia_windows_app\\distribuidora\\sistemagestion\\uctrlventa.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5BEFDBD-B21B-4985-B6C1-653A1E55BEFB}|SistemaGestion\\SistemaGestion.UI.csproj|solutionrelative:sistemagestion\\uctrlventa.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,28 +50,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "uctrlventa.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Roger Espinoza\\Downloads\\trabajongo\\Distribuidora\\Distribuidora\\SistemaGestion\\uctrlventa.Designer.cs",
-              "RelativeDocumentMoniker": "SistemaGestion\\uctrlventa.Designer.cs",
-              "ToolTip": "C:\\Users\\Roger Espinoza\\Downloads\\trabajongo\\Distribuidora\\Distribuidora\\SistemaGestion\\uctrlventa.Designer.cs",
-              "RelativeToolTip": "SistemaGestion\\uctrlventa.Designer.cs",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "UsuarioServices.cs",
+              "DocumentMoniker": "E:\\documentos\\Nefi_ayuda\\distribuidora_acunia_windows_app\\Distribuidora\\SistemaGestion.BLL\\Services\\UsuarioServices.cs",
+              "RelativeDocumentMoniker": "SistemaGestion.BLL\\Services\\UsuarioServices.cs",
+              "ToolTip": "E:\\documentos\\Nefi_ayuda\\distribuidora_acunia_windows_app\\Distribuidora\\SistemaGestion.BLL\\Services\\UsuarioServices.cs",
+              "RelativeToolTip": "SistemaGestion.BLL\\Services\\UsuarioServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T01:30:25.377Z",
+              "WhenOpened": "2026-06-25T04:06:51.378Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "uctrlventa.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Roger Espinoza\\Downloads\\trabajongo\\Distribuidora\\Distribuidora\\SistemaGestion\\uctrlventa.cs",
+              "DocumentIndex": 2,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "E:\\documentos\\Nefi_ayuda\\distribuidora_acunia_windows_app\\Distribuidora\\SistemaGestion.DAL\\Repository\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "SistemaGestion.DAL\\Repository\\UsuarioRepository.cs",
+              "ToolTip": "E:\\documentos\\Nefi_ayuda\\distribuidora_acunia_windows_app\\Distribuidora\\SistemaGestion.DAL\\Repository\\UsuarioRepository.cs",
+              "RelativeToolTip": "SistemaGestion.DAL\\Repository\\UsuarioRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T04:06:46.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "E:\\documentos\\Nefi_ayuda\\distribuidora_acunia_windows_app\\Distribuidora\\SistemaGestion.DAL\\Entities\\Usuario.cs",
+              "RelativeDocumentMoniker": "SistemaGestion.DAL\\Entities\\Usuario.cs",
+              "ToolTip": "E:\\documentos\\Nefi_ayuda\\distribuidora_acunia_windows_app\\Distribuidora\\SistemaGestion.DAL\\Entities\\Usuario.cs",
+              "RelativeToolTip": "SistemaGestion.DAL\\Entities\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T04:06:39.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "uctrlventa.cs",
+              "DocumentMoniker": "E:\\documentos\\Nefi_ayuda\\distribuidora_acunia_windows_app\\Distribuidora\\SistemaGestion\\uctrlventa.cs",
               "RelativeDocumentMoniker": "SistemaGestion\\uctrlventa.cs",
-              "ToolTip": "C:\\Users\\Roger Espinoza\\Downloads\\trabajongo\\Distribuidora\\Distribuidora\\SistemaGestion\\uctrlventa.cs [Design]",
+              "ToolTip": "E:\\documentos\\Nefi_ayuda\\distribuidora_acunia_windows_app\\Distribuidora\\SistemaGestion\\uctrlventa.cs",
+              "RelativeToolTip": "SistemaGestion\\uctrlventa.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAASwCQBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T01:58:10.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "uctrlventa.cs [Design]",
+              "DocumentMoniker": "E:\\documentos\\Nefi_ayuda\\distribuidora_acunia_windows_app\\Distribuidora\\SistemaGestion\\uctrlventa.cs",
+              "RelativeDocumentMoniker": "SistemaGestion\\uctrlventa.cs",
+              "ToolTip": "E:\\documentos\\Nefi_ayuda\\distribuidora_acunia_windows_app\\Distribuidora\\SistemaGestion\\uctrlventa.cs [Design]",
               "RelativeToolTip": "SistemaGestion\\uctrlventa.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-24T06:10:19.483Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "uctrlventa.Designer.cs",
+              "DocumentMoniker": "E:\\documentos\\Nefi_ayuda\\distribuidora_acunia_windows_app\\Distribuidora\\SistemaGestion\\uctrlventa.Designer.cs",
+              "RelativeDocumentMoniker": "SistemaGestion\\uctrlventa.Designer.cs",
+              "ToolTip": "E:\\documentos\\Nefi_ayuda\\distribuidora_acunia_windows_app\\Distribuidora\\SistemaGestion\\uctrlventa.Designer.cs",
+              "RelativeToolTip": "SistemaGestion\\uctrlventa.Designer.cs",
+              "ViewState": "AgIAAC4BAAAAAAAAAAAnwH8BAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T03:53:55.104Z",
+              "EditorCaption": ""
             }
           ]
         }
