@@ -1,0 +1,78 @@
+﻿using Microsoft.Data.SqlClient;
+using SistemaGestion.DAL.Configuration;
+using SistemaGestion.DAL.Entities;
+
+namespace SistemaGestion.DAL.Repository
+{
+    // NOTA: Ajusta los nombres de columnas si difieren en tu base de datos.
+    // Se asume tabla: Producto, columnas: Id_Producto, Nombre, Marca, Descripcion,
+    //                 Tamanio, Modelo, Precio, StockDisponible
+    public class ProductRepository
+    {
+        public List<Producto> ObtenerLista()
+        {
+            var lista = new List<Producto>();
+            try
+            {
+                using (SqlConnection connection = DBConnection.Connect())
+                {
+                    connection.Open();
+                    string sql = "SELECT Id_Producto,Nombre_Producto, Id_Categoria, Id_Marca, Id_Unidad, Descripcion, Precio_Costo, Precio_Detalle, Stock_Actual, Stock_Minimo, Activo, Presentacion FROM Producto";
+                    SqlCommand cmd = new SqlCommand(sql, connection);
+                    SqlDataReader reader = cmd.ExecuteReader();
+                    while (reader.Read())
+                    {
+                        lista.Add(MapearProducto(reader));
+                    }
+                    connection.Close();
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            return lista;
+        }
+
+        public List<Producto> BuscarPorNombre(string nombre)
+        {
+            var lista = new List<Producto>();
+            try
+            {
+                using (SqlConnection connection = DBConnection.Connect())
+                {
+                    connection.Open();
+                    string sql = "SELECT Id_Producto, Nombre_Producto, Id_Categoria, Id_Marca, Id_Unidad, Descripcion, Precio_Costo, Precio_Detalle, Stock_Actual, Stock_Minimo, Activo, Presentacion FROM Producto WHERE Nombre LIKE @Nombre";
+                    SqlCommand cmd = new SqlCommand(sql, connection);
+                    cmd.Parameters.AddWithValue("@Nombre", $"%{nombre}%");
+                    SqlDataReader reader = cmd.ExecuteReader();
+                    while (reader.Read())
+                    {
+                        lista.Add(MapearProducto(reader));
+                    }
+                    connection.Close();
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            return lista;
+        }
+
+        private Producto MapearProducto(SqlDataReader reader)
+        {
+            return new Producto
+            {
+                Id = (int)reader["Id_Producto"],
+                Nombre = reader["Nombre_Producto"].ToString()!,
+                Marca = reader["Id_Categoria"].ToString()!,
+                Descripcion = reader["Descripcion"].ToString()!,
+                Tamanio = Convert.ToDouble(reader["Tamanio"]),
+                Modelo = reader["Precio_Costo"].ToString()!,
+                Precio = Convert.ToDouble(reader["Precio_Costo"]),
+                StockDisponible = (int)reader["Stock_Actual"]
+            };
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Roger Espinoza\\Downloads\\trabajongo\\Distribuidora\\Distribuidora\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C5BEFDBD-B21B-4985-B6C1-653A1E55BEFB}|SistemaGestion\\SistemaGestion.UI.csproj|C:\\Users\\Roger Espinoza\\Downloads\\trabajongo\\Distribuidora\\Distribuidora\\sistemagestion\\uctrlventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C5BEFDBD-B21B-4985-B6C1-653A1E55BEFB}|SistemaGestion\\SistemaGestion.UI.csproj|solutionrelative:sistemagestion\\uctrlventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5BEFDBD-B21B-4985-B6C1-653A1E55BEFB}|SistemaGestion\\SistemaGestion.UI.csproj|c:\\users\\roger espinoza\\downloads\\trabajongo\\distribuidora\\distribuidora\\sistemagestion\\uctrlventa.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5BEFDBD-B21B-4985-B6C1-653A1E55BEFB}|SistemaGestion\\SistemaGestion.UI.csproj|solutionrelative:sistemagestion\\uctrlventa.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "uctrlventa.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Roger Espinoza\\Downloads\\trabajongo\\Distribuidora\\Distribuidora\\SistemaGestion\\uctrlventa.Designer.cs",
+              "RelativeDocumentMoniker": "SistemaGestion\\uctrlventa.Designer.cs",
+              "ToolTip": "C:\\Users\\Roger Espinoza\\Downloads\\trabajongo\\Distribuidora\\Distribuidora\\SistemaGestion\\uctrlventa.Designer.cs",
+              "RelativeToolTip": "SistemaGestion\\uctrlventa.Designer.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T01:30:25.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "uctrlventa.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Roger Espinoza\\Downloads\\trabajongo\\Distribuidora\\Distribuidora\\SistemaGestion\\uctrlventa.cs",
+              "RelativeDocumentMoniker": "SistemaGestion\\uctrlventa.cs",
+              "ToolTip": "C:\\Users\\Roger Espinoza\\Downloads\\trabajongo\\Distribuidora\\Distribuidora\\SistemaGestion\\uctrlventa.cs [Design]",
+              "RelativeToolTip": "SistemaGestion\\uctrlventa.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T06:10:19.483Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

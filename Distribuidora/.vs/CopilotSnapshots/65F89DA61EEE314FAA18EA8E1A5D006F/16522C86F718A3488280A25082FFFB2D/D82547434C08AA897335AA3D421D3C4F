@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Microsoft.Data.SqlClient;
+
+namespace SistemaGestion.DAL.Configuration
+{
+    public class DBConnection
+    {
+        //campo donde definimos la cadena de conexion a la BD
+        // NOTA: Cambia "localhost" por el nombre de tu instancia SQL Server si es diferente.
+        // Ejemplos: "localhost\SQLEXPRESS", "(localdb)\MSSQLLocalDB", "NOMBRE_DE_TU_PC"
+        private static string connectionString = "Server=localhost;Database=DistribuidoraAcuna;Trusted_Connection=true;TrustServerCertificate=True";
+
+        //Metodo para retornar la cadena de conexion en tipo SqlConnection
+        public static SqlConnection Connect()
+        {
+            return new SqlConnection(connectionString);
+        }
+    }
+}
