@@ -142,14 +142,14 @@ namespace SistemaGestion.UI
 
             if (string.IsNullOrWhiteSpace(txtProduct.Text))
             {
-                MessageBox.Show("Debe seleccionar un producto.", "Validación",
+                MessageBox.Show("Debe seleccionar un producto.", "Distribuidora Acuña",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return false;
             }
 
             if (string.IsNullOrWhiteSpace(txtCantidad.Text))
             {
-                MessageBox.Show("Debe ingresar la cantidad.", "Validación",
+                MessageBox.Show("Debe ingresar la cantidad.", "Distribuidora Acuña",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 txtCantidad.Focus();
                 return false;
@@ -157,7 +157,7 @@ namespace SistemaGestion.UI
 
             if (!int.TryParse(txtCantidad.Text.Trim(), out cantidad) || cantidad <= 0)
             {
-                MessageBox.Show("La cantidad debe ser un número entero mayor a cero.", "Validación",
+                MessageBox.Show("La cantidad debe ser un número entero mayor a cero.", "Distribuidora Acuña",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 txtCantidad.Clear();
                 txtCantidad.Focus();
@@ -169,7 +169,7 @@ namespace SistemaGestion.UI
                 System.Globalization.CultureInfo.InvariantCulture,
                 out precioUnitario) || precioUnitario <= 0)
             {
-                MessageBox.Show("El precio unitario no es válido.", "Validación",
+                MessageBox.Show("El precio unitario no es válido.", "Distribuidora Acuña",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return false;
             }
@@ -181,7 +181,7 @@ namespace SistemaGestion.UI
                     System.Globalization.CultureInfo.InvariantCulture,
                     out descuento) || descuento < 0)
                 {
-                    MessageBox.Show("El descuento debe ser un número mayor o igual a cero.", "Validación",
+                    MessageBox.Show("El descuento debe ser un número mayor o igual a cero.", "Distribuidora Acuña",
                         MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     txtDescuento.Focus();
                     return false;
@@ -189,7 +189,7 @@ namespace SistemaGestion.UI
 
                 if (descuento >= cantidad * precioUnitario)
                 {
-                    MessageBox.Show("El descuento no puede ser mayor o igual al total del ítem.", "Validación",
+                    MessageBox.Show("El descuento no puede ser mayor o igual al total del ítem.", "Distribuidora Acuña",
                         MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     txtDescuento.Focus();
                     return false;
@@ -205,14 +205,14 @@ namespace SistemaGestion.UI
         {
             if (dgvDatos.CurrentRow == null || dgvDatos.CurrentRow.Index < 0)
             {
-                MessageBox.Show("Seleccione un registro para editar.", "Aviso",
+                MessageBox.Show("Seleccione un registro para editar.", "Distribuidora Acuña",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
             if (_rowEditandoIndex >= 0)
             {
-                MessageBox.Show("Termine la edición actual antes de editar otro registro.", "Aviso",
+                MessageBox.Show("Termine la edición actual antes de editar otro registro.", "Distribuidora Acuña",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
@@ -242,14 +242,14 @@ namespace SistemaGestion.UI
         {
             if (_rowEditandoIndex >= 0)
             {
-                MessageBox.Show("Cancele la edición actual antes de eliminar un registro.", "Aviso",
+                MessageBox.Show("Cancele la edición actual antes de eliminar un registro.", "Distribuidora Acuña",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
             if (dgvDatos.CurrentRow == null || dgvDatos.CurrentRow.Index < 0)
             {
-                MessageBox.Show("Seleccione un registro para eliminar.", "Aviso",
+                MessageBox.Show("Seleccione un registro para eliminar.", "Distribuidora Acuña",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
