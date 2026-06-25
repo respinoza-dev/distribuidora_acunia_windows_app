@@ -13,12 +13,13 @@ namespace SistemaGestion.UI
 
         private void InitializeComponent()
         {
-            lblBuscar      = new Label();
-            txtBuscar      = new TextBox();
-            btnBuscar      = new Button();
-            dgvClientes    = new DataGridView();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBuscarCliente));
+            lblBuscar = new Label();
+            txtBuscar = new TextBox();
+            btnBuscar = new Button();
+            dgvClientes = new DataGridView();
             btnSeleccionar = new Button();
-            btnCerrar      = new Button();
+            btnCerrar = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvClientes).BeginInit();
             SuspendLayout();
             // 
@@ -26,86 +27,93 @@ namespace SistemaGestion.UI
             // 
             lblBuscar.AutoSize = true;
             lblBuscar.Location = new Point(12, 16);
-            lblBuscar.Name     = "lblBuscar";
+            lblBuscar.Name = "lblBuscar";
+            lblBuscar.Size = new Size(45, 15);
             lblBuscar.TabIndex = 0;
-            lblBuscar.Text     = "Buscar:";
+            lblBuscar.Text = "Buscar:";
             // 
             // txtBuscar
             // 
-            txtBuscar.Location       = new Point(65, 13);
-            txtBuscar.Margin         = new Padding(3, 2, 3, 2);
-            txtBuscar.Name           = "txtBuscar";
+            txtBuscar.Location = new Point(65, 13);
+            txtBuscar.Margin = new Padding(3, 2, 3, 2);
+            txtBuscar.Name = "txtBuscar";
             txtBuscar.PlaceholderText = "Ingrese nombre del cliente...";
-            txtBuscar.Size           = new Size(390, 23);
-            txtBuscar.TabIndex       = 1;
-            txtBuscar.KeyDown        += txtBuscar_KeyDown;
+            txtBuscar.Size = new Size(390, 23);
+            txtBuscar.TabIndex = 1;
+            txtBuscar.KeyDown += txtBuscar_KeyDown;
             // 
             // btnBuscar
             // 
-            btnBuscar.Location             = new Point(465, 12);
-            btnBuscar.Margin               = new Padding(3, 2, 3, 2);
-            btnBuscar.Name                 = "btnBuscar";
-            btnBuscar.Size                 = new Size(110, 25);
-            btnBuscar.TabIndex             = 2;
-            btnBuscar.Text                 = "Buscar";
+            btnBuscar.Image = (Image)resources.GetObject("btnBuscar.Image");
+            btnBuscar.ImageAlign = ContentAlignment.MiddleLeft;
+            btnBuscar.Location = new Point(465, 12);
+            btnBuscar.Margin = new Padding(3, 2, 3, 2);
+            btnBuscar.Name = "btnBuscar";
+            btnBuscar.Size = new Size(110, 25);
+            btnBuscar.TabIndex = 2;
+            btnBuscar.Text = "Buscar";
             btnBuscar.UseVisualStyleBackColor = true;
-            btnBuscar.Click               += btnBuscar_Click;
+            btnBuscar.Click += btnBuscar_Click;
             // 
             // dgvClientes
             // 
-            dgvClientes.AllowUserToAddRows    = false;
+            dgvClientes.AllowUserToAddRows = false;
             dgvClientes.AllowUserToDeleteRows = false;
             dgvClientes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvClientes.Location       = new Point(12, 46);
-            dgvClientes.Margin         = new Padding(3, 2, 3, 2);
-            dgvClientes.Name           = "dgvClientes";
-            dgvClientes.ReadOnly       = true;
+            dgvClientes.Location = new Point(12, 46);
+            dgvClientes.Margin = new Padding(3, 2, 3, 2);
+            dgvClientes.Name = "dgvClientes";
+            dgvClientes.ReadOnly = true;
             dgvClientes.RowHeadersWidth = 51;
-            dgvClientes.SelectionMode  = DataGridViewSelectionMode.FullRowSelect;
-            dgvClientes.Size           = new Size(563, 330);
-            dgvClientes.TabIndex       = 3;
+            dgvClientes.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dgvClientes.Size = new Size(563, 330);
+            dgvClientes.TabIndex = 3;
             dgvClientes.CellDoubleClick += dgvClientes_CellDoubleClick;
             // 
             // btnSeleccionar
             // 
-            btnSeleccionar.Location             = new Point(340, 386);
-            btnSeleccionar.Margin               = new Padding(3, 2, 3, 2);
-            btnSeleccionar.Name                 = "btnSeleccionar";
-            btnSeleccionar.Size                 = new Size(115, 30);
-            btnSeleccionar.TabIndex             = 4;
-            btnSeleccionar.Text                 = "Seleccionar";
+            btnSeleccionar.Image = (Image)resources.GetObject("btnSeleccionar.Image");
+            btnSeleccionar.ImageAlign = ContentAlignment.MiddleLeft;
+            btnSeleccionar.Location = new Point(340, 386);
+            btnSeleccionar.Margin = new Padding(3, 2, 3, 2);
+            btnSeleccionar.Name = "btnSeleccionar";
+            btnSeleccionar.Size = new Size(115, 30);
+            btnSeleccionar.TabIndex = 4;
+            btnSeleccionar.Text = "Seleccionar";
             btnSeleccionar.UseVisualStyleBackColor = true;
-            btnSeleccionar.Click               += btnSeleccionar_Click;
+            btnSeleccionar.Click += btnSeleccionar_Click;
             // 
             // btnCerrar
             // 
-            btnCerrar.Location             = new Point(460, 386);
-            btnCerrar.Margin               = new Padding(3, 2, 3, 2);
-            btnCerrar.Name                 = "btnCerrar";
-            btnCerrar.Size                 = new Size(115, 30);
-            btnCerrar.TabIndex             = 5;
-            btnCerrar.Text                 = "Cerrar";
+            btnCerrar.Image = (Image)resources.GetObject("btnCerrar.Image");
+            btnCerrar.ImageAlign = ContentAlignment.MiddleLeft;
+            btnCerrar.Location = new Point(460, 386);
+            btnCerrar.Margin = new Padding(3, 2, 3, 2);
+            btnCerrar.Name = "btnCerrar";
+            btnCerrar.Size = new Size(115, 30);
+            btnCerrar.TabIndex = 5;
+            btnCerrar.Text = "Cerrar";
             btnCerrar.UseVisualStyleBackColor = true;
-            btnCerrar.Click               += btnCerrar_Click;
+            btnCerrar.Click += btnCerrar_Click;
             // 
             // frmBuscarCliente
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode       = AutoScaleMode.Font;
-            ClientSize          = new Size(587, 425);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(587, 425);
             Controls.Add(btnCerrar);
             Controls.Add(btnSeleccionar);
             Controls.Add(dgvClientes);
             Controls.Add(btnBuscar);
             Controls.Add(txtBuscar);
             Controls.Add(lblBuscar);
-            FormBorderStyle   = FormBorderStyle.FixedDialog;
-            MaximizeBox       = false;
-            MinimizeBox       = false;
-            Name              = "frmBuscarCliente";
-            StartPosition     = FormStartPosition.CenterParent;
-            Text              = "Buscar Cliente";
-            Load             += frmBuscarCliente_Load;
+            FormBorderStyle = FormBorderStyle.FixedDialog;
+            MaximizeBox = false;
+            MinimizeBox = false;
+            Name = "frmBuscarCliente";
+            StartPosition = FormStartPosition.CenterParent;
+            Text = "Buscar Cliente";
+            Load += frmBuscarCliente_Load;
             ((System.ComponentModel.ISupportInitialize)dgvClientes).EndInit();
             ResumeLayout(false);
             PerformLayout();

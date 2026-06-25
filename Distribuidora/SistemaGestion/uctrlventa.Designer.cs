@@ -380,9 +380,9 @@ namespace SistemaGestion.UI
             lblSubtotal.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
             lblSubtotal.Location = new Point(6, 470);
             lblSubtotal.Name = "lblSubtotal";
-            lblSubtotal.Size = new Size(117, 19);
+            lblSubtotal.Size = new Size(126, 19);
             lblSubtotal.TabIndex = 17;
-            lblSubtotal.Text = "Subtotal:  $ 0.00";
+            lblSubtotal.Text = "Subtotal:  C$ 0.00";
             // 
             // btnNuevo
             // 
@@ -464,6 +464,8 @@ namespace SistemaGestion.UI
             // 
             // btnFiltrar
             // 
+            btnFiltrar.Image = (Image)resources.GetObject("btnFiltrar.Image");
+            btnFiltrar.ImageAlign = ContentAlignment.MiddleLeft;
             btnFiltrar.Location = new Point(400, 8);
             btnFiltrar.Name = "btnFiltrar";
             btnFiltrar.Size = new Size(85, 28);
@@ -504,21 +506,25 @@ namespace SistemaGestion.UI
             // 
             // btnEditarVenta
             // 
+            btnEditarVenta.Image = (Image)resources.GetObject("btnEditarVenta.Image");
+            btnEditarVenta.ImageAlign = ContentAlignment.MiddleLeft;
             btnEditarVenta.Location = new Point(672, 435);
             btnEditarVenta.Name = "btnEditarVenta";
             btnEditarVenta.Size = new Size(110, 33);
             btnEditarVenta.TabIndex = 7;
-            btnEditarVenta.Text = "Editar Venta";
+            btnEditarVenta.Text = "Editar ";
             btnEditarVenta.UseVisualStyleBackColor = true;
             btnEditarVenta.Click += btnEditarVenta_Click;
             // 
             // btnEliminarVenta
             // 
+            btnEliminarVenta.Image = (Image)resources.GetObject("btnEliminarVenta.Image");
+            btnEliminarVenta.ImageAlign = ContentAlignment.MiddleLeft;
             btnEliminarVenta.Location = new Point(789, 435);
             btnEliminarVenta.Name = "btnEliminarVenta";
             btnEliminarVenta.Size = new Size(110, 33);
             btnEliminarVenta.TabIndex = 8;
-            btnEliminarVenta.Text = "Eliminar Venta";
+            btnEliminarVenta.Text = "Eliminar";
             btnEliminarVenta.UseVisualStyleBackColor = true;
             btnEliminarVenta.Click += btnEliminarVenta_Click;
             // 

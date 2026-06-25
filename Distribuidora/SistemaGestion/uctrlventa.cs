@@ -55,7 +55,7 @@ namespace SistemaGestion.UI
                 cbMetodoPago.ValueMember   = "IdMetodoPago";
 
                 cmbTipoVenta.Items.Clear();
-                cmbTipoVenta.Items.AddRange(new object[] { "Detalle", "Mayoreo" });
+                cmbTipoVenta.Items.AddRange(new object[] { "Detalle", "Mayor" });
                 if (cmbTipoVenta.SelectedIndex < 0)
                     cmbTipoVenta.SelectedIndex = 0;
             }
@@ -360,7 +360,7 @@ namespace SistemaGestion.UI
                     IdUsuario     = _idUsuarioActual,
                     IdMetodoPago  = (int)cbMetodoPago.SelectedValue!,
                     TipoVenta     = cmbTipoVenta.SelectedItem?.ToString() ?? "Detalle",
-                    EstadoVenta   = "Completada",
+                    EstadoVenta   = "Activo",
                     FechaVenta    = DateTime.Now,
                     Observaciones = txtObservacion.Text.Trim()
                 };

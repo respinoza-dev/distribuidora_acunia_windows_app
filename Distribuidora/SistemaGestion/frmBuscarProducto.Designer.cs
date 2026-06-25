@@ -15,6 +15,7 @@ namespace SistemaGestion.UI
 
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBuscarProducto));
             lblBuscar = new Label();
             txtBuscar = new TextBox();
             btnBuscar = new Button();
@@ -29,7 +30,7 @@ namespace SistemaGestion.UI
             lblBuscar.AutoSize = true;
             lblBuscar.Location = new Point(12, 16);
             lblBuscar.Name = "lblBuscar";
-            lblBuscar.Size = new Size(47, 15);
+            lblBuscar.Size = new Size(45, 15);
             lblBuscar.TabIndex = 0;
             lblBuscar.Text = "Buscar:";
             // 
@@ -45,6 +46,8 @@ namespace SistemaGestion.UI
             // 
             // btnBuscar
             // 
+            btnBuscar.Image = (Image)resources.GetObject("btnBuscar.Image");
+            btnBuscar.ImageAlign = ContentAlignment.MiddleLeft;
             btnBuscar.Location = new Point(465, 12);
             btnBuscar.Margin = new Padding(3, 2, 3, 2);
             btnBuscar.Name = "btnBuscar";
@@ -71,6 +74,8 @@ namespace SistemaGestion.UI
             // 
             // btnSeleccionar
             // 
+            btnSeleccionar.Image = (Image)resources.GetObject("btnSeleccionar.Image");
+            btnSeleccionar.ImageAlign = ContentAlignment.MiddleLeft;
             btnSeleccionar.Location = new Point(340, 386);
             btnSeleccionar.Margin = new Padding(3, 2, 3, 2);
             btnSeleccionar.Name = "btnSeleccionar";
@@ -82,6 +87,8 @@ namespace SistemaGestion.UI
             // 
             // btnCerrar
             // 
+            btnCerrar.Image = (Image)resources.GetObject("btnCerrar.Image");
+            btnCerrar.ImageAlign = ContentAlignment.MiddleLeft;
             btnCerrar.Location = new Point(460, 386);
             btnCerrar.Margin = new Padding(3, 2, 3, 2);
             btnCerrar.Name = "btnCerrar";
